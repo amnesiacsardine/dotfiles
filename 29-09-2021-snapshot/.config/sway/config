@@ -23,7 +23,7 @@ set $menu dmenu_path | rofi -dmenu | xargs swaymsg exec --
 # Keyboard backlight
 set $kblight ~/.local/bin/kb-light.py
 #Grimshot
-set $grimshot ~/.local/bin/grimshot.sh
+set $grimshot ~/.local/bin/grimshot.sh save output
 #Startup apps
 exec keepassxc
 exec dunst
